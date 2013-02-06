@@ -116,10 +116,11 @@ KeepAliveTimeout 60
 		</Item>
 		<Item Name="Robot Main.vi" Type="VI" URL="../Robot Main.vi"/>
 		<Item Name="pickup.vi" Type="VI" URL="../../../LabVIEW Data/2013 Robot Project/SubVI/pickup.vi"/>
-		<Item Name="shooter.vi" Type="VI" URL="../../../LabVIEW Data/2013 Robot Project/SubVI/shooter.vi"/>
-		<Item Name="fire mech.vi" Type="VI" URL="../../../LabVIEW Data/2013 Robot Project/SubVI/fire mech.vi"/>
-		<Item Name="fire1disc.vi" Type="VI" URL="../../../LabVIEW Data/2013 Robot Project/SubVI/fire1disc.vi"/>
-		<Item Name="AutoFireStateMachine.vi" Type="VI" URL="../../../LabVIEW Data/2013 Robot Project/SubVI/AutoFireStateMachine.vi"/>
+		<Item Name="fire1disc.vi" Type="VI" URL="../SubVI/fire1disc.vi"/>
+		<Item Name="shooter.vi" Type="VI" URL="../SubVI/shooter.vi"/>
+		<Item Name="fire mech.vi" Type="VI" URL="../SubVI/fire mech.vi"/>
+		<Item Name="AutoFireStateMachine.vi" Type="VI" URL="../SubVI/AutoFireStateMachine.vi"/>
+		<Item Name="Global 1 (shooter controls).vi" Type="VI" URL="../SubVI/Global 1 (shooter controls).vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="Image Type" Type="VI" URL="/&lt;vilib&gt;/vision/Image Controls.llb/Image Type"/>
@@ -665,11 +666,11 @@ KeepAliveTimeout 60
 				<Item Name="WPI_SolenoidOpen.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/Solenoid/WPI_SolenoidOpen.vi"/>
 				<Item Name="WPI_SolenoidClose.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/Solenoid/WPI_SolenoidClose.vi"/>
 				<Item Name="subElapsedTime.vi" Type="VI" URL="/&lt;vilib&gt;/express/express execution control/ElapsedTimeBlock.llb/subElapsedTime.vi"/>
+				<Item Name="FormatTime String.vi" Type="VI" URL="/&lt;vilib&gt;/express/express execution control/ElapsedTimeBlock.llb/FormatTime String.vi"/>
 				<Item Name="Semaphore Refnum Core.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/semaphor.llb/Semaphore Refnum Core.ctl"/>
 				<Item Name="Not A Semaphore.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/semaphor.llb/Not A Semaphore.vi"/>
-				<Item Name="GetNamedSemaphorePrefix.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/semaphor.llb/GetNamedSemaphorePrefix.vi"/>
-				<Item Name="RemoveNamedSemaphorePrefix.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/semaphor.llb/RemoveNamedSemaphorePrefix.vi"/>
 				<Item Name="Validate Semaphore Size.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/semaphor.llb/Validate Semaphore Size.vi"/>
+				<Item Name="GetNamedSemaphorePrefix.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/semaphor.llb/GetNamedSemaphorePrefix.vi"/>
 				<Item Name="AddNamedSemaphorePrefix.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/semaphor.llb/AddNamedSemaphorePrefix.vi"/>
 			</Item>
 			<Item Name="nivissvc.dll" Type="Document" URL="nivissvc.dll">

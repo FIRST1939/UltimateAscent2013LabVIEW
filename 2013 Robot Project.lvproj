@@ -123,6 +123,7 @@ KeepAliveTimeout 60
 		<Item Name="Ear control.vi" Type="VI" URL="../SubVI/Ear control.vi"/>
 		<Item Name="Grabber State Machine.vi" Type="VI" URL="../SubVI/Grabber State Machine.vi"/>
 		<Item Name="Grabber States.ctl" Type="VI" URL="../SubVI/Grabber States.ctl"/>
+		<Item Name="Grabber control buttons global.vi" Type="VI" URL="../../../../../../Program Files (x86)/National Instruments/LabVIEW 2012/examples/FRC/Pneumatics/Compressor With Cylinder/Grabber control buttons global.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="Image Type" Type="VI" URL="/&lt;vilib&gt;/vision/Image Controls.llb/Image Type"/>
@@ -692,6 +693,7 @@ KeepAliveTimeout 60
 				<Item Name="WPI_DriverStationStop Communication.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/DriverStation/WPI_DriverStationStop Communication.vi"/>
 				<Item Name="FormatTime String.vi" Type="VI" URL="/&lt;vilib&gt;/express/express execution control/ElapsedTimeBlock.llb/FormatTime String.vi"/>
 				<Item Name="RemoveNamedSemaphorePrefix.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/semaphor.llb/RemoveNamedSemaphorePrefix.vi"/>
+				<Item Name="WPI_DigitalInputRefNum Registry Set.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/DigitalInput/WPI_DigitalInputRefNum Registry Set.vi"/>
 			</Item>
 			<Item Name="nivissvc.dll" Type="Document" URL="nivissvc.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>

@@ -30,7 +30,6 @@
 		<Property Name="target.FPProtocolGlobals_ControlTimeLimit" Type="Int">300</Property>
 		<Property Name="target.getDefault-&gt;WebServer.Port" Type="Int">80</Property>
 		<Property Name="target.getDefault-&gt;WebServer.Timeout" Type="Int">60</Property>
-		<Property Name="target.IOScan.Enabled" Type="Bool">true</Property>
 		<Property Name="target.IOScan.Faults" Type="Str"></Property>
 		<Property Name="target.IOScan.NetVarPeriod" Type="UInt">100</Property>
 		<Property Name="target.IOScan.NetWatchdogEnabled" Type="Bool">false</Property>
@@ -126,6 +125,8 @@ KeepAliveTimeout 60
 		<Item Name="Grabber States.ctl" Type="VI" URL="../SubVI/Grabber States.ctl"/>
 		<Item Name="Grabber control buttons global.vi" Type="VI" URL="../../../../../../Program Files (x86)/National Instruments/LabVIEW 2012/examples/FRC/Pneumatics/Compressor With Cylinder/Grabber control buttons global.vi"/>
 		<Item Name="grabber control buttons.vi" Type="VI" URL="../SubVI/grabber control buttons.vi"/>
+		<Item Name="Robot Global Data.vi" Type="VI" URL="/F/UltimateAscent2013/Robot Global Data.vi"/>
+		<Item Name="Global 1 (shooter controls).vi" Type="VI" URL="/F/UltimateAscent2013/SubVI/Global 1 (shooter controls).vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="Image Type" Type="VI" URL="/&lt;vilib&gt;/vision/Image Controls.llb/Image Type"/>
@@ -728,6 +729,7 @@ KeepAliveTimeout 60
 			<Item Name="niLvFpgaWhatHappensToTopLevelVI.ctl" Type="VI" URL="/&lt;vilib&gt;/rvi/errors/niLvFpgaWhatHappensToTopLevelVI.ctl"/>
 			<Item Name="niFpgaNodeNameForErrorReporting.ctl" Type="VI" URL="/&lt;vilib&gt;/rvi/interface/common/niFpgaNodeNameForErrorReporting.ctl"/>
 			<Item Name="niLvFpgaAdjustHostInterfaceError.vi" Type="VI" URL="/&lt;vilib&gt;/rvi/errors/niLvFpgaAdjustHostInterfaceError.vi"/>
+			<Item Name="encoder distance calc.vi" Type="VI" URL="/F/UltimateAscent2013/encoder distance calc.vi"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="FRC Robot Boot-up Deployment" Type="{69A947D5-514E-4E75-818E-69657C0547D8}">
